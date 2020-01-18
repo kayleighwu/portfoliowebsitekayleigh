@@ -1,0 +1,121 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway')
+;
+
+*{
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+}
+img{
+  max-width: 100%
+  height: auto;
+}
+nav ul {
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display:inline-block;
+  margin: 4em;
+  font-weight: bold;
+}
+
+nav a {
+  color: black;
+}
+
+.button{
+  display: inline-block;
+  font-size: 1.15rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-width: 2px;
+  border-style: solid;
+  padding: .5cm 1.75cm;
+}
+
+.botton-small{
+  font-size: .7rem;
+}
+
+.home-contact {
+  <img src="bourbon.jpg" alt="Kayleigh in the french quarter";
+}
+
+
+.about{
+  margin: 4em 0;
+}
+
+.column{
+  position: relative;
+}
+
+.port-description {
+  position: absolute;
+  z-index: 100;
+  bottom: 2em;
+  left: 1em;
+  right: 1em;
+  color: white;
+  background: rgba(0,0,0,.55);
+  padding: .5em;
+}
+
+.port-description p {
+  margin:.1em;
+}
+
+div{
+  margin:0;
+}
+.port-item img{
+  <center>
+  display: block;
+}
+
+.port-why{
+  transform:translateY(150%);
+
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.column{
+    overflow:hidden;
+  }
+
+
+.port-description{
+  transform: translateY(150%);
+}
+
+.column:hover .port-description{
+  transform:translateY(0%);
+}
+
+.home-contact{
+  font-size: 3em;
+  margin-bottom: : 2em;
+
+
+}
